@@ -269,7 +269,7 @@ class BookingRepository extends BaseRepository
 
             //Event::fire(new JobWasCreated($job, $data, '*'));
 
-//            $this->sendNotificationToSuitableTranslators($job->id, $data, '*');// send Push for New job posting
+        //            $this->sendNotificationToSuitableTranslators($job->id, $data, '*');// send Push for New job posting
         } else {
             $response['status'] = 'fail';
             $response['message'] = "Translator can not create booking";
@@ -529,7 +529,7 @@ class BookingRepository extends BaseRepository
     }
 
     /**
-     * Sends SMS to translators and retuns count of translators
+     * Sends SMS to translators and returns count of translators
      * @param $job
      * @return int
      */
