@@ -1,6 +1,6 @@
 <?php
 
-namespace DTApi\Repository;
+namespace App\Repository;
 
 use Validator;
 use Illuminate\Database\Eloquent\Model;
